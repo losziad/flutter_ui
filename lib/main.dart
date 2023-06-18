@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/UI/login_page/login_page.dart';
 import 'package:flutter_ui/UI/neu_button/neu_button.dart';
 import 'package:flutter_ui/home_page.dart';
 
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.deepPurple,
+      //  primarySwatch: Colors.deepPurple,
       ),
-      home:  HomePage(),
+      home:  LoginPage(),
     );
   }
 }
