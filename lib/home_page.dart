@@ -2,6 +2,9 @@ import 'dart:math';
 
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/UI/coffee/coffee.dart';
+import 'package:flutter_ui/UI/coffee/utils/coffee_tiles.dart';
+import 'package:flutter_ui/UI/coffee/utils/coffee_types.dart';
 import 'package:flutter_ui/UI/confetti_package/confetti_package.dart';
 import 'package:flutter_ui/UI/health/health_ui.dart';
 import 'package:flutter_ui/UI/health/utils/emoticon_face.dart';
@@ -41,11 +44,12 @@ class _HomePageState extends State<HomePage> {
   }
   bool isPlaying = false;
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Health(),
+        child: CoffeeUI(),
       ),
     );
   }
