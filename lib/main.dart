@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       home:  HomePage(),
       darkTheme: ThemeData(
-          brightness: Brightness.dark,
-        primarySwatch: Colors.orange,
+        //   brightness: Brightness.dark,
+        // primarySwatch: Colors.orange,
       ),
     );
   }
