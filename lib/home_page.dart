@@ -10,6 +10,7 @@ import 'package:flutter_ui/UI/curved_bottom_nav_bar/curved_bottom_nav_bar.dart';
 import 'package:flutter_ui/UI/health/health_ui.dart';
 import 'package:flutter_ui/UI/health/utils/emoticon_face.dart';
 import 'package:flutter_ui/UI/health/utils/exercises_tile.dart';
+import 'package:flutter_ui/UI/hidden_drawer/hidden_drawer.dart';
 import 'package:flutter_ui/UI/neu_button/neu_button.dart';
 
 class HomePage extends StatefulWidget {
@@ -50,7 +51,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: CurvedBottomNavBar(),
+        child: HiddenDrawer(),
       ),
     );
   }
