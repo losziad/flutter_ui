@@ -12,6 +12,7 @@ import 'package:flutter_ui/UI/health/utils/emoticon_face.dart';
 import 'package:flutter_ui/UI/health/utils/exercises_tile.dart';
 import 'package:flutter_ui/UI/hidden_drawer/hidden_drawer.dart';
 import 'package:flutter_ui/UI/instagram/instagram_ui.dart';
+import 'package:flutter_ui/UI/like_button/like_button.dart';
 import 'package:flutter_ui/UI/neu_button/neu_button.dart';
 
 class HomePage extends StatefulWidget {
@@ -52,7 +53,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: InstagramUI(),
+        child: LikeButtonPackage(),
       ),
     );
   }
