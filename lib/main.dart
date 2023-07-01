@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home:  HomePage(),
       darkTheme: ThemeData(
         //   brightness: Brightness.dark,
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: Colors.grey,
       ),
     );
   }
