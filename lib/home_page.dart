@@ -7,6 +7,7 @@ import 'package:flutter_ui/UI/coffee/utils/coffee_tiles.dart';
 import 'package:flutter_ui/UI/coffee/utils/coffee_types.dart';
 import 'package:flutter_ui/UI/confetti_package/confetti_package.dart';
 import 'package:flutter_ui/UI/curved_bottom_nav_bar/curved_bottom_nav_bar.dart';
+import 'package:flutter_ui/UI/google_nav_bar/google_nav_bar.dart';
 import 'package:flutter_ui/UI/health/health_ui.dart';
 import 'package:flutter_ui/UI/health/utils/emoticon_face.dart';
 import 'package:flutter_ui/UI/health/utils/exercises_tile.dart';
@@ -55,7 +56,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: MinimalLoginPage(),
+        child: GoogleNavBar(),
       ),
     );
   }

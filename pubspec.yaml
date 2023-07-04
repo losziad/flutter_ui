@@ -39,6 +39,7 @@ dependencies:
   hidden_drawer_menu: ^3.0.1
   like_button: ^2.0.5
   lottie: ^1.2.2
+  google_nav_bar: ^5.0.6
 
 dev_dependencies:
   flutter_test:
