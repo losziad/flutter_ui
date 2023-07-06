@@ -17,6 +17,7 @@ import 'package:flutter_ui/UI/like_button/like_button.dart';
 import 'package:flutter_ui/UI/medical_ui/pages/medical_ui.dart';
 import 'package:flutter_ui/UI/minimal_login_page/minimal_login_page.dart';
 import 'package:flutter_ui/UI/neu_button/neu_button.dart';
+import 'package:flutter_ui/UI/song_page/song_page_ui.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -56,7 +57,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: GoogleNavBar(),
+        child: SongPage(),
       ),
     );
   }
