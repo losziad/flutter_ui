@@ -163,6 +163,7 @@ class _SongPageState extends State<SongPage> {
                         ),
                       ),
                       Expanded(
+
                         child:NeuBox(
                           child: Icon(
                             Icons.skip_next,
